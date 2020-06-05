@@ -1,6 +1,5 @@
 // https://flaviocopes.com/how-to-count-properties-object-javascript/
 window.onload = function(){ 
-    const employee_card = document.getElementById("employee_card");
 const xhr = new XMLHttpRequest();
 xhr.onload = (e) => {
     if(xhr.status == 404){alert("Employee not found");}
